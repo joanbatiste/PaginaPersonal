@@ -18,6 +18,39 @@
     height: 5em;
     border: 0.1em solid black;
     display: flex;
+    flex-direction: row;
+}
+.espacio{
+    width: 85%;
+    height: 5em;
+    border: 0.1em solid black;
+}
+.espaciologos{
+    width: 15%;
+    height: 5em;
+    border: 0.1em solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.linkedin{
+    width: 3em;
+    height: 3em;
+    display: flex;
+
+}
+.github{
+    width: 3em;
+    height: 3em;
+    display: flex;
+}
+.contacto{
+    width: 3em;
+    height: 3em;
+    display: flex;
+    
 }
 /*Imagen central*/
 .imagenpersonal{
@@ -62,14 +95,14 @@ p{
       object-position: center center;
     }
 }
-/**/
+/*Sección principal de la página*/
 .containerdescripcion{
     width: 100%;
     height: 27em;
     border: 0.1em solid black;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: row;
 }
 .quiensoy{
@@ -79,7 +112,53 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: 2.5s;
+}
+.quiensoy:hover{
+    width: 22em;
+    height: 34em;
+    border-radius: 5%;
+    transition: 2.5s;
+}
+.quiensoy:hover .enunciado1{
+    width: 22em;
+    height: 6.2em;
+    border-radius: 8% 8% 0 0;
+    transition: 2.5s;
+    background-color: lightgrey;
+}
+.quiensoy:hover .desarrollo1{
+    display: flex;
     text-align: justify;
+    text-indent: 5%;
+    width: 22em;
+    height: 27.8em;
+    background-color: grey;
+    border-radius: 0 0 5% 5%;
+    transition: 2.5s;
+}
+.enunciado1{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    width: 15em;
+    height: 5em;
+    background-color: grey;
+    transition: 2.5s;
+}
+.desarrollo1{
+    display: flex;
+    text-align: justify;
+    text-indent: 5%;
+    width: 15em;
+    height: 22em;
+    background-color: lightgrey;
+    transition: 2.5s;
+}
+.espaciador1{
+    width: 2em;
+    height: 27em;
 }
 .estudios{
     display: flex;
@@ -91,6 +170,26 @@ p{
     height: 27em;
     border: 0.1em solid black;
 }
+.enunciado2{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    width: 15em;
+    height: 5em;
+}
+.desarrollo2{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    text-indent: 5%;
+    width: 15em;
+    height: 22em;
+}
+.espaciador2{
+    width: 2em;
+    height: 27em;
+}
 .experiencia{
     display: flex;
     flex-direction: column;
@@ -100,6 +199,26 @@ p{
     width: 15em;
     height: 27em;
     border: 0.1em solid black;
+}
+.enunciado3{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    width: 15em;
+    height: 5em;
+}
+.desarrollo3{
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    text-indent: 5%;
+    width: 15em;
+    height: 22em;
+}
+.espaciador3{
+    width: 2em;
+    height: 27em;
 }
 .proyectos{
     display: flex;
@@ -111,8 +230,25 @@ p{
     height: 27em;
     border: 0.1em solid black;
 }
-h2{
+.enunciado4{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    width: 15em;
+    height: 5em;
+}
+.desarrollo4{
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    text-indent: 5%;
+    width: 15em;
+    height: 22em;
+}
+#h2{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
 #p2{
     text-align: justify;
