@@ -1,0 +1,127 @@
+/*Contenedor principal*/
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 250, 249, 0.932);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/*Header*/
+.cabecera{
+    width: 100%;
+    height: 5em;
+    border: 0.1em solid black;
+    display: flex;
+}
+/*Imagen central*/
+.imagenpersonal{
+    width: 100%;
+    height: 20em;
+    border: 0.1em solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.nombre{
+    width: 10em;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Formato de texto de todos los <p> */
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    
+}
+.fotoprincipal{
+    width: 15em;
+    height: 15em;
+    border: 0.1em solid black;
+    display: flex;
+    overflow: hidden;
+    border-radius: 50%;
+      
+}
+.fotoprincipal img{
+    width: 100%;
+    height: auto;
+}
+@supports(object-fit: cover){
+    .fotoprincipal img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+/**/
+.containerdescripcion{
+    width: 100%;
+    height: 27em;
+    border: 0.1em solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.quiensoy{
+    width: 15em;
+    height: 27em;
+    border: 0.1em solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+.estudios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    text-indent: 5%;
+    width: 15em;
+    height: 27em;
+    border: 0.1em solid black;
+}
+.experiencia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    text-indent: 5%;
+    width: 15em;
+    height: 27em;
+    border: 0.1em solid black;
+}
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    text-indent: 5%;
+    width: 15em;
+    height: 27em;
+    border: 0.1em solid black;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p2{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 10%;
+}
+a{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 10%;
+    color: blue;
+}
