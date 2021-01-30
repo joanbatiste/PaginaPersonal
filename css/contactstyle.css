@@ -26,3 +26,33 @@
     justify-content: space-evenly;
     margin-top: 2em;
 }
+@media (max-width: 27em){
+    .containercontacto{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .formulario{
+        width: 15em;
+        height: 15em;
+        margin-top: 2;
+    }
+    .botones{
+        width: 15em;
+        height: 3em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+        justify-content: space-evenly;
+        margin-top: 5em;
+    }
+}

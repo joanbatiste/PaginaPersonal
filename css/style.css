@@ -69,12 +69,7 @@
     align-items: center;
     justify-content: center;
 }
-/* Formato de texto de todos los <p> */
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-    
-}
+
 .fotoprincipal{
     width: 12em;
     height: 12em;
@@ -105,6 +100,7 @@ p{
     justify-content: center;
     flex-direction: row;
 }
+
 .quiensoy{
     display: flex;
     flex-direction: column;
@@ -207,6 +203,7 @@ p{
     display: flex;
     
 }
+/*Diseño del footer*/
 .footer{
     width: 100%;
     height: 12em;
@@ -238,17 +235,229 @@ p{
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* Formato de texto de todos los p h y a*/
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    
+}
+
 h2{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 p2{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     text-indent: 5%;
+    width: 100%;
 }
 a{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     text-indent: 10%;
     color: blue;
+}
+@media (max-width: 20em){
+    .container{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cabecera{
+        width: 100%;
+        height: 5em;
+        display: flex;
+        flex-direction: row;
+    }
+    .espacio{
+        width: 0;
+        height: 5em;
+    }
+    .espaciologos{
+        width: 100%;
+        height: 5em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagenpersonal{
+        width: 100%;
+        height: 15em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+    .fotoprincipal{
+        width: 6em;
+        height: 6em;
+    }
+    
+    .containerdescripcion{
+        width: 100%;
+        height: 108em; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .quiensoy{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        text-indent: 5%;
+        width: 15em;
+        height: 27em;
+        border: 0.1em solid black;
+        border-radius: 2%;
+        background-color: lightgray;
+    }
+    .estudios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        text-indent: 5%;
+        width: 15em;
+        height: 27em;
+        border: 0.1em solid black;
+        border-radius: 2%;
+        background-color: lightgray;
+    }
+    .experiencia{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        text-indent: 5%;
+        width: 15em;
+        height: 27em;
+        border: 0.1em solid black;
+        border-radius: 2%;
+        background-color: lightgray;
+    }
+    .proyectos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        text-indent: 5%;
+        width: 15em;
+        height: 27em;
+        border: 0.1em solid black;
+        border-radius: 2%;
+        background-color: lightgray;
+    }
+    p{
+        font-size: 0.8em;
+    }
+    .footer{
+        width: 100%;
+        height: 24em;
+        
+        background-color: grey;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (min-width:20.1em) and (max-width:52em){
+    .container{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .espacio{
+        width: 75%;
+        height: 5em;
+        
+    }
+    .espaciologos{
+        width: 25%;
+        height: 5em;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    
+    }
+    .containerdescripcion{
+        width: 100%;
+        height: 80em; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .quiensoy{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        text-indent: 5%;
+        width: 100%;
+        height: 20em;
+        border: 0.1em solid black;
+        border-radius: 2%;
+        background-color: lightgray;
+    }
+    .estudios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        text-indent: 5%;
+        width: 100%;
+        height: 20em;
+        border: 0.1em solid black;
+        border-radius: 2%;
+        background-color: lightgray;
+    }
+    .experiencia{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        text-indent: 5%;
+        width: 100%;
+        height: 20em;
+        border: 0.1em solid black;
+        border-radius: 2%;
+        background-color: lightgray;
+    }
+    .proyectos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        text-indent: 5%;
+        width: 100%;
+        height: 20em;
+        border: 0.1em solid black;
+        border-radius: 2%;
+        background-color: lightgray;
+    }
+
 }
